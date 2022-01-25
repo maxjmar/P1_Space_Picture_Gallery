@@ -1,5 +1,6 @@
 *{
     font-family: arial,sans-serif;
+    color: black;
 }
 
 body{
@@ -12,3 +13,16 @@ h1{
     background-color: white;
 }
 
+h2{
+    color: black;
+    background-color: white;
+}
+
+div #image-container{
+    width: 300px;
+}
+div #image-card{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+}
