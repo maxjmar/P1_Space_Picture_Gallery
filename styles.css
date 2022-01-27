@@ -1,28 +1,50 @@
 *{
     font-family: arial,sans-serif;
     color: black;
+    box-sizing: border-box;
 }
 
 body{
-    color: white;
-    background-color: black
+    background-color: green;
+    /* justify-content: start; */
+    font-size: 1em;
+
 }
 
 h1{
     color: black;
+    text-align: center;
     background-color: white;
+    padding: 1rem;
+    width: 75%;
 }
 
 h2{
     color: black;
+    font-size: 1.5em;
     background-color: white;
+    width: 50%;
 }
 
-div #image-container{
-    width: 300px;
+.flex-container{
+    display: flex;
 }
-div #image-card{
-    height: 400px;
-    width: 300px;
+.flex-child{
+    flex: 1;
+    border: 2px solid black;
+    width: 20%;
+}
+.flex-child:first-child{
+    margin-right: 10px;
+
+}
+
+h2 #card-title{
+    width: 50%;
+}
+#card-image img{
     background-color: white;
+    height: 150px
+
+
 }
